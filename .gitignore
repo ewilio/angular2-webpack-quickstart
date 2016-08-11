@@ -1,0 +1,13 @@
+*.js
+*.js.map
+npm-debug.log
+
+dist
+dist/**
+node_modules
+typings
+nbproject/**
+
+!config/**
+!karma.conf.js
+!webpack.config.js
