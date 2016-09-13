@@ -1,4 +1,6 @@
+import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { NotFoundComponent } from './_shared/index';
 
 const appRoutes: Routes = [
@@ -7,4 +9,4 @@ const appRoutes: Routes = [
 
 export const appRoutingProviders: any[] = [];
 
-export const routing = RouterModule.forRoot(appRoutes);
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

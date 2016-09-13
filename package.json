@@ -1,7 +1,7 @@
 {
-  "name": "angular2-webpack",
-  "version": "1.0.0",
-  "description": "A webpack starter for angular 2",
+  "name": "angular2-webpack-quickstart",
+  "version": "1.0.1",
+  "description": "A webpack starter for angular 2, based on the official angular2 docs",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
@@ -36,6 +36,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
+    "reflect-metadata": "^0.1.8",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.7",
     "raw-loader": "^0.5.1",
