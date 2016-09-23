@@ -4,9 +4,13 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 describe('App', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({ imports: [RouterTestingModule], declarations: [AppComponent], providers: [provideRoutes([])] });
+    TestBed.configureTestingModule({
+      imports: [RouterTestingModule],
+      declarations: [AppComponent],
+      providers: [provideRoutes([])],
+    });
   });
-  it ('should work', () => {
+  it('should work', () => {
     let fixture = TestBed.createComponent(AppComponent);
     expect(fixture.componentInstance instanceof AppComponent).toBe(true, 'should create AppComponent');
   });
