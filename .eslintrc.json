@@ -12,6 +12,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-path-concat": [
+            0
+        ],
         "indent": [
             "error",
             2
